@@ -1,0 +1,62 @@
+.cont {
+    background-image: url(../img/thumb2-4k-geometric-shapes-blue-background-splinters-creative.jpg);
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.marco {
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    background-color: aqua;
+    width: 35vw;
+    margin-left: 2vw;
+}
+
+.formulario {
+    border: 1px solid black;
+    background-color: rgb(185, 178, 178);
+    height: 11em;
+    border: 1px solid black;
+    width: 40vw;
+}
+
+.botones {
+    display: flex;
+    gap: 0.4em;
+    margin-right: 4em;
+    margin-top: 2em;
+    align-items: center;
+    align-content: center;
+}
+
+.login {
+    border: 2px solid black;
+    background-color: white;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    width: 40vw;
+}
+
+.name {
+    width: 35vw;
+    margin-top: 1em;
+    margin-left: 2vw;
+}
+
+.pasword {
+    width: 35vw;
+    margin-left: 2vw;
+    align-content: center;
+}
+
+.candado {
+    margin-left: 25em;
+}

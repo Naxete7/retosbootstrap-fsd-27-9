@@ -5,15 +5,15 @@
     <title>bootstrap</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <link href="./retosbootstrap-fsd-27-9/css/style.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
 
 <body>
+
     <div class="container-fluid cont">
         <div class="row">
             <div class="container">
@@ -26,16 +26,21 @@
             </div>
 
 
-            <div class="container col-5">
-                <div class="row d-flex justify-content-center">
+            <div class="container col-5 cuadro">
+                <div class="row d-flex justify-content-center align-content-center">
                     <div class="col-10">
                         <div class="login">
                             <h3>Log in our site</h3>
                             <h6>Enter username and pasword</h6>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                              </svg>
                         </div>
-                        <div class="formulario">
-                            <div><input class="form-control" type="text" placeholder="username" aria-label="default input example"></div>
-                            <div><input class="form-control form-control-sm" type="text" placeholder="pasword" aria-label=".form-control-sm example"></div>
+                        <div class="formulario justify-content-center">
+                            <div class="raised-block name"><input class="form-control " type="text" placeholder="username" aria-label="default input example"></div>
+                            <br>
+                            <div><input class="form-control form-control-sm pasword" type="text" placeholder="pasword" aria-label=".form-control-sm example"></div>
+                            <br>
                             <div class="d-grid gap-2">
                                 <button class="btn btn-primary boton" type="button">Log in</button></div>
                         </div>
